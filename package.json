@@ -1,0 +1,21 @@
+{
+    "name": "matrix",
+    "version": "1.0.0",
+    "description": "Matrix Calculator",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel index.html",
+        "build": "parcel build index.html --no-scope-hoist"
+    },
+    "author": "Arshia Eskandari",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.7.0"
+    },
+    "dependencies": {
+        "core-js": "^3.25.3",
+        "fractional": "^1.0.0",
+        "mathjs": "^11.2.1",
+        "regenerator-runtime": "^0.13.9"
+    }
+}
